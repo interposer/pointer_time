@@ -29,3 +29,14 @@ int client(){
 }
 
 #endif
+
+int allocate_username( char** username, int size)
+{
+    char *user;
+    
+    user = (char*)malloc(sizeof(char)*size);
+    
+    if (user == NULL) {
+        puts( "No memory available!");
+    }
+}
