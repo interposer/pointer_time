@@ -39,6 +39,6 @@ int allocate_username(char** username, int size);
         puts("No memory available!");
     }
     else {
-        char** username = user;
+        username = user;
     }
 }
